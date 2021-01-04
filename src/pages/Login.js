@@ -12,6 +12,10 @@ const Login = () => {
         <button className="btn" onClick={loginWithRedirect}>
           Log In / Sign Up
         </button>
+        <p>
+          Created only for educational perposes{" "}
+          <strong>Thanks to John smilga</strong> -- <code>Chaitanya</code>
+        </p>
       </div>
     </Wrapper>
   );
