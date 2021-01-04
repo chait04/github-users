@@ -1,9 +1,33 @@
-import React from 'react';
-import styled from 'styled-components';
-import { Link } from 'react-router-dom';
+import React from "react";
+import styled from "styled-components";
+import { Link } from "react-router-dom";
 const Error = () => {
-  return <h2>error page</h2>;
+  return (
+    <Wrapper>
+      <div>
+        <h1>404</h1>
+        <h3>Your intension dosent seems to be good</h3>
+        <_Link to="/">Back to Home</_Link>
+      </div>
+    </Wrapper>
+  );
 };
+
+const _Link = styled(Link)`
+  padding: 20px;
+  color: #132c07;
+  margin-top: 10px;
+  text-decoration: none;
+  border-radius: 2rem;
+  background: #bad0e9;
+  font-weight: bolder;
+  &:hover {
+    color: white;
+    background: #093531;
+    transition: var(--transition);
+  }
+`;
+
 const Wrapper = styled.section`
   min-height: 100vh;
   display: grid;

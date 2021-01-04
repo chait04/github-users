@@ -1,9 +1,16 @@
-import React from 'react';
-import styled from 'styled-components';
-import Card from './Card';
-import Followers from './Followers';
+import React from "react";
+import styled from "styled-components";
+import Card from "./Card";
+import Followers from "./Followers";
 const User = () => {
-  return <h2>search component</h2>;
+  return (
+    <div className="section">
+      <Wrapper className="section-center">
+        <Card />
+        <Followers />
+      </Wrapper>
+    </div>
+  );
 };
 
 const Wrapper = styled.div`
