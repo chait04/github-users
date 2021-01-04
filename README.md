@@ -1,3 +1,5 @@
+# Special Thanks to Coding Addict yt - john-smilga
+
 ## Starter Project
 
 - css provided (global styles, styled components)
