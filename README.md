@@ -1,6 +1,7 @@
-# Special Thanks to Coding Addict yt - john-smilga
-
 ## Starter Project
+
+[![Issues](https://img.shields.io/github/issues/chait04/github-users)](#issues)
+[![forks](https://img.shields.io/github/forks/chait04/github-users)](#forks)
 
 - css provided (global styles, styled components)
 - folders/files already setup
